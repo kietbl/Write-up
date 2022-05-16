@@ -1,1 +1,2 @@
-It's my first competition :) 
+##**Index:**
+###[Substitution](https://github.com/saraka1412/Write-up/tree/main/HCMUS-CTF%202022/Substitution)
