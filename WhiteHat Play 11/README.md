@@ -7,3 +7,4 @@
   
 [osint02-Summer vacation: Flight Flight Flight](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/osint02-Summer%20vacation:%20Flight%20Flight%20Flight)
 
+[osint04-Adultery I](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/osint04-Adultery%20I)
