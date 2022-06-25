@@ -10,7 +10,7 @@ Note: Flag is in format itself, you don't need to wrap it in WhiteHat{}*
 **Analyze:**
 Challenge's name is: my first place.
 
-The challenge give me the character name "Incent Eva", she is described "a mischievous girl" and she spent her vacation in Vietnam and her trip update on the popular social platform.
+The challenge gives me the character name "Incent Eva", she is described "a mischievous girl" and she spent her vacation in Vietnam and her trip update on the popular social platform.
 
 **Solve:**
 So, I search her name on Facebook, Instagram and Twitter and I found her on Twitter:
