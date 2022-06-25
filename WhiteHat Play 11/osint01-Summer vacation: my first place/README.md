@@ -25,9 +25,9 @@ First time, I think it locate in Ha Noi, but list beautiful places in Ha Noi doe
 And I found that the place is same Independence Palace in Ho Chi Minh city.
 So, I search that in google maps and open Photo, scroll and I found the image contain the flag:
 
-![image](https://user-images.githubusercontent.com/94149390/175757241-9612b477-c74b-4cc6-b5a6-c125d92e9112.png)
+![image](https://user-images.githubusercontent.com/94149390/175773725-9c2cd68c-165a-4967-b019-66c8b50eaed0.png)
 
 >Flag:
 >WhiteHat{1nd3p3nd3nc3_PAlAc3_1s_A_h1stor1c_MonuM3nt_of_V13tNAM}
 
-***NOTE***: My method is unintended, and Google remove or hidden this image, so I can't find it when I write write-up, thus I use my old image (I found the flag when I use google maps app on android :') )
+***NOTE***: My method is unintended, and Google remove or hidden this image :') 
