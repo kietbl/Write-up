@@ -13,3 +13,13 @@
 
 <details>
 <summary><h3>FORENSICS</h3></summary>
+</details>
+
+<details>
+<summary><h3>MISCELLANEOUS</h3></summary>
+</details>
+
+<details>
+<summary><h3>CRYPTOGRAPHY</h3></summary>
+</details>
+
