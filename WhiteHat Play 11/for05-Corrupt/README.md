@@ -8,7 +8,7 @@
 
 **Analyze:*
 
-Because this challenge does not hard, so I will go to solve without analyze!!
+Because this challenge does not hard, so I will solve it without analyze!!
 
 **Solve:**
 
