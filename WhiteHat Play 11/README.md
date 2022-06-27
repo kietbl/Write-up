@@ -23,12 +23,13 @@
 <details>
 <summary><h3>MISCELLANEOUS</h3></summary>
   
- * [misc01-Summer](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/misc01-Summer)
- * [misc04-Audio](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/misc04-Audio)
+* [misc01-Summer](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/misc01-Summer)
+* [misc04-Audio](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/misc04-Audio)
 </details>
 
 <details>
 <summary><h3>CRYPTOGRAPHY</h3></summary>
-  *crypto06-Caesar
+  
+* crypto06-Caesar
 </details>
 
