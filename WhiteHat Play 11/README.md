@@ -9,6 +9,8 @@
 * [osint04-Adultery I](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/osint04-Adultery%20I)
 
 * [osint05-leak](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/osint05-leak)
+
+* [osint06-Adultery II](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/osint06-Adultery%20II)
 </details>
 
 <details>
