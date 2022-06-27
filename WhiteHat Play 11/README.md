@@ -17,7 +17,7 @@
 <summary><h3>FORENSICS</h3></summary>
 
 * [for05-Corrupt](https://github.com/kietbl/Write-up/tree/main/WhiteHat%20Play%2011/for05-Corrupt)
-
+* for06-Beginner forensics
 </details>
 
 <details>
