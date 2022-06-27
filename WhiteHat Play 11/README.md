@@ -29,5 +29,6 @@
 
 <details>
 <summary><h3>CRYPTOGRAPHY</h3></summary>
+  *crypto06-Caesar
 </details>
 
