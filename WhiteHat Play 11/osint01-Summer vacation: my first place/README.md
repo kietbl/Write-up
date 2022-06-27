@@ -21,7 +21,7 @@ I scroll and found her tweet about her first place:
 
 ![image](https://user-images.githubusercontent.com/94149390/175757048-c96400e8-0f00-4b33-a2b4-8e2b23e187f8.png)
 
-First time, I think it locate in Ha Noi, but list beautiful places in Ha Noi does not have any place like it.
+First time, I think it located in Ha Noi, but list beautiful places in Ha Noi does not have any place like it.
 And I found that the place is same Independence Palace in Ho Chi Minh city.
 So, I search that in google maps and open Photo, scroll and I found the image contain the flag:
 
