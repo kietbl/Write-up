@@ -30,4 +30,4 @@ So, I search that in google maps and open Photo, scroll and I found the image co
 >Flag:
 >WhiteHat{1nd3p3nd3nc3_PAlAc3_1s_A_h1stor1c_MonuM3nt_of_V13tNAM}
 
-***NOTE***: My method is unintended, and Google remove or hidden this image :') 
+***NOTE***: My method is unintended, and Google removed or hid this image, thus I don't think my way can be followed. :') 
