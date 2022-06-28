@@ -13,7 +13,7 @@ Challenge's name is: my first place.
 The challenge gives me the character name "Incent Eva", she is described "a mischievous girl" and she spent her vacation in Vietnam and her trip update on the popular social platform.
 
 **Solve:**
-So, I search her name on Facebook, Instagram and Twitter and I found her on Twitter:
+I search her name on Facebook, Instagram and Twitter and I found her on Twitter:
 
 ![image](https://user-images.githubusercontent.com/94149390/175756980-3cb02918-05fd-4226-90df-d4ccbbac9316.png)
 
