@@ -33,6 +33,8 @@ Giải nén và ta nhận được:
 
 ![image](https://user-images.githubusercontent.com/94149390/184560335-a5e42da7-47e1-4a98-ada8-9f07fdcb1d54.png)
 
+*Giải:*
+
 Lại là file wav, và việc đầu tiên mình làm là ném vào Sonic Visualiser :v.
 
 Và bởi vì nó là 1 file âm thanh bình thường nên không có gì cả :v.
