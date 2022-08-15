@@ -61,4 +61,4 @@ Mở file và nhận được flag:
 
 >Flag: SHELL{y0u_w3r3_7h1nk1ng_R3ally_D33p}
 
-
+**REVERSE:**
