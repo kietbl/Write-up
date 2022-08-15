@@ -21,6 +21,7 @@ Mình dùng phần mềm Sonic Visualiser để mở file wav -> Pane -> Add Spe
 >Flag: shell{y0u_g07_7h3_f1ag}
 
 ***Go Deep***:
+Bài nay mình làm với team :v 
 
 ![image](https://user-images.githubusercontent.com/94149390/184560087-afcc099b-e2b3-40cd-b116-1e57ee9bbafc.png)
 
@@ -38,9 +39,9 @@ Và bởi vì nó là 1 file âm thanh bình thường nên không có gì cả 
 
 Thế là mình quay lại challenge và để ý chữ "GO" viết hoa, vậy là challenge này bảo mình làm cái gì đó "deep".
 
-Đầu tiên mình nghĩ là dùng binwalk giải nén tới khi nào có flag thì thôi nhưng càng giải nén thì nó càng ra nhiều file :v, dí đến chết, giờ mà mỗi file đều giải nén thì tới mùa quýt mình mới tìm được flag :v.
+Đầu tiên bọn mình nghĩ là dùng binwalk giải nén tới khi nào có flag thì thôi nhưng càng giải nén thì nó càng ra nhiều file :v, dí đến chết, giờ mà mỗi file đều giải nén thì tới mùa quýt mình mới tìm được flag :v.
 
-Thế nên mình nghĩ sang hướng khác, mình bắt đầu chú ý tới từ "deep" và googlge search "deep sound stego tool" và tìm ra được tool: DeepSound.
+Thế nên bọn mình nghĩ sang hướng khác, bọn mình bắt đầu chú ý tới từ "deep" và googlge search "deep sound stego tool" và tìm ra được tool: DeepSound.
 
 ![image](https://user-images.githubusercontent.com/94149390/184560817-939d4ec7-0bd5-4174-aebc-c13e81bbcce9.png)
 
