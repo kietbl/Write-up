@@ -153,6 +153,29 @@ Ném vào tool decode và mình nhận được:
 ``` 5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355 ```
 >Flag: GDUCTF{5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355}
 
+## Before The Dead ##
+
+**Description: I find playing guessing game is interesting so I took one on google. After finishing the first round, my computer suddenly show errors get crashed. Luckily, I was able to dump memory before the crash happen. Could you analyze what was happening in my computer at that time?
+Ah and I know the attacker ip address but don't know what port is opening, maybe you can try with the bind port he used when he attacked my computer.
+P/s: The game file contains not a real virus so feel free to run it without any worry =)))
+Attacker ip: (xong giải nên server tắt rồi :v)** 
+
+Bài cho mình file memory.raw. Mình dùng volatility3 để phân tích memory dump này
+
+Mình dùng plugin: windows.info (với volatility2 thì các bạn có thể dùng imageinfo cũng tương tự)
+
+![image](https://user-images.githubusercontent.com/94149390/185831707-ec31c8fc-90db-4277-beec-133e96493c90.png)
+
+Dựa vào những thông tin mình nhận được thì hệ điều hành của máy nạn nhân là Windows XPSP2 32 bit.
+
+Tiếp theo mình check port, bởi vì phiên bản hệ điều hành Win XPSP2 không hỗ trợ và bị lỗi nên mình không dùng windows.netscan và windows.netstat được nên 
+mình dùng volatility2 với plugin connections
+
+![image](https://user-images.githubusercontent.com/94149390/185832624-f59db9d4-fec8-4308-9daa-10e79faaa859.png)
+
+Chỉ có 1 connection và 1 port, vậy suy ra port của kẻ tấn công là 30002
+
+
 ### OSINT ###
 ## Forgotten photo ##
 
