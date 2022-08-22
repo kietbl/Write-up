@@ -153,5 +153,39 @@ Ném vào tool decode và mình nhận được:
 ``` 5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355 ```
 >Flag: GDUCTF{5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355}
 
+### OSINT ###
+## Forgotten photo ##
+
+**Description:
+Elios Roger is the photographer I hired to prepare the photos for the Moon exhibit. He said he would send me the photo, but the exhibition day is coming and I can't contact him.
+Can you help me find the red moon photo he helped me take for the exhibition?**
+
+Tìm tên Elios Roger trên Twitter, link twitter của đối tượng: https://twitter.com/EliosRoger.
+
+![image](https://user-images.githubusercontent.com/94149390/185829613-d8e05ee4-90cd-49e6-a62c-e274a99b2911.png)
+
+Lướt 1 vòng trang cá nhân thì mình cũng không thấy có gì đặc biệt, tải thử mấy cái ảnh về, dùng [Fotoforensics](https://fotoforensics.com/) để phân tích cũng
+không thấy gì.
+
+Mình vào view list:
+
+![image](https://user-images.githubusercontent.com/94149390/185829785-91384748-30ad-4c1a-9678-5267ff310ecf.png)
+
+Và thấy Customer's photo
+
+![image](https://user-images.githubusercontent.com/94149390/185829810-32ad7e8d-a6ea-4a20-865f-0cf1a9e1cc14.png)
+
+Truy cập vào [link](https://drive.google.com/drive/folders/1cRudn2snJBPHE1upCxSB6QV31sFnRYln) bên trong và nhận được 
+
+![image](https://user-images.githubusercontent.com/94149390/185830116-444793f2-d48c-47fe-8efc-d5d014055d33.png)
+
+Tải về, ném vào Fotoforensics, vào meta data và nhận được flag:
+
+![image](https://user-images.githubusercontent.com/94149390/185830171-93349087-9d11-4ef5-8694-d3e60fb80238.png)
+
+>Flag: GDUCTF{r3d_m00n_f0r_th3_3xh1b1t10n}
+
+
+
 
 
