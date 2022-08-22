@@ -8,7 +8,7 @@ challenge description mà chỉ có text.
 Ok, bắt đầu nào:
 
 <details>
-     <summary><h3> FORENSIC: </h3></summary>
+     <summary><h3> FORENSIC </h3></summary>
         <details>
              <summary><h3> Sky </h3></summary>
 
@@ -236,7 +236,7 @@ Nhập username và password thì nhận được file flag.txt, cat nó và mì
          </details>
          
 <details>
-    <summary><h3> OSINT: </h3></summary>
+    <summary><h3> OSINT </h3></summary>
         <details>
             <summary><h3> Forgotten photo </h3> </summary>
 
