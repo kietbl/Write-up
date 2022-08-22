@@ -181,8 +181,12 @@ Chỉ có 1 connection và 1 port, vậy suy ra port của kẻ tấn công là 
 
 Tới đây thì mình không biết phải làm gì tiếp nên thử hết mấy cái plugin như windows.pstree, hivelist
 
-1 hồi sau thì challenge description thay đổi thành gì đấy mình không nhớ rõ nhưng đại khái là bảo người chơi chơi game. Kèm với 1 cái hint to bự rất hữu ích: 
-"Volatility". Vâng, cảm ơn hint rất hữu ích của ông, tác giả bài này.
+1 hồi sau thì challenge description thay đổi thành gì đấy mình không nhớ rõ nhưng đại khái là bảo người chơi chơi game. 
+
+Kèm với 1 cái hint to bự rất hữu ích: 
+"Volatility". 
+             
+Vâng, cảm ơn hint rất hữu ích của ông, tác giả bài này.
 
 Thế là mình dùng pstree xem những ứng dụng nào chạy vào lúc ấy 
 
