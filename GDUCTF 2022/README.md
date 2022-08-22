@@ -272,7 +272,7 @@ Tải về, ném vào Fotoforensics, vào meta data và nhận được flag:
 </details>
 
 <details>
-    <summary><h3> Crypto </h3></summary>
+    <summary><h3> CRYPTOGRAPHY </h3></summary>
         <details>
             <summary><h3> MasterChef </h3></summary>
             
@@ -299,6 +299,6 @@ Bấm vào biểu tượng cái gậy phép tới khi nào ra output là flag th
  </details>
     </details>
 
-Okay, nếu các bạn có bất kỳ thắc mắc gì có thể Direct Message saraka#4758 trên Discord.
+***saraka#4758***
 
 
