@@ -1,6 +1,12 @@
+![image](https://user-images.githubusercontent.com/94149390/185906264-9943f825-af72-49ab-9e04-15de925e8cf1.png)
+
+Vừa rồi bên ĐH Gia Định có tổ chức 1 giải CTF nho nhỏ và mời thành viên CLB ATTT trường mình ra đề, mình mới vào clb nên được tham gia
+thi đấu luôn.
+
 Dưới đây là 1 số challenge mình đã giải được ở giải này, và vì server thi chỉ tồn tại đến hết giải nên mình không có hình ảnh cụ thể về 
 challenge description mà chỉ có text.
 Ok, bắt đầu nào:
+
 <details>
      <summary><h3> FORENSIC: </h3></summary>
         <details>
