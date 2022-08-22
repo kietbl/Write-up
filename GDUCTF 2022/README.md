@@ -8,7 +8,7 @@ Ok, bắt đầu nào:
 
 **Description: where is my sky???**
 
-Challenge này cho mình file Sky.wav. Khi nhìn thấy file có đuôi wav, cái mình nghĩ tới đầu tiên là Spectrogram của nó.
+Challenge này cho mình file [sky.wav](https://github.com/kietbl/Write-up/blob/main/GDUCTF%202022/sky.wav). Khi nhìn thấy file có đuôi wav, cái mình nghĩ tới đầu tiên là Spectrogram của nó.
 
 Thế là mình dùng Sonic Visualiser để mở:
 
@@ -27,7 +27,7 @@ Và mình nhận được flag:
 
 **Description: they are talking about something, can you find their secret?**
 
-Challenge cho mình file Conversation.pcap.
+Challenge cho mình file [conversation.pcapng](https://github.com/kietbl/Write-up/blob/main/GDUCTF%202022/conversation.pcapng).
 
 Mở lên và giao diện của nó như sau: 
 
@@ -98,7 +98,7 @@ Mở lên và có flag
 
 **Description: The stars are just small dots in the long long night**
 
-Challenge này cho mình file message.png
+Challenge này cho mình file [message.png](https://github.com/kietbl/Write-up/blob/main/GDUCTF%202022/message.png)
 
 Mở file lên và điều đầu tiên mình nghĩ là file này nhỏ quá.
 
@@ -164,7 +164,7 @@ Ah and I know the attacker ip address but don't know what port is opening, maybe
 P/s: The game file contains not a real virus so feel free to run it without any worry =)))
 Attacker ip: (xong giải nên server tắt rồi :v)** 
 
-Bài cho mình file memory.raw. Mình dùng volatility3 để phân tích memory dump này
+Bài cho mình file memory.raw, tải tại [đây](https://drive.google.com/file/d/1OaoKhw54i0v5kWqt_-YZcxM-J9gf-iYD/view?usp=sharing). Mình dùng volatility3 để phân tích memory dump này
 
 Mình dùng plugin: windows.info (với volatility2 thì các bạn có thể dùng imageinfo cũng tương tự)
 
@@ -268,7 +268,7 @@ Tải về, ném vào Fotoforensics, vào meta data và nhận được flag:
             
 **Description: longkd719 is a MasterChef. He can bake the flag. :D???**
     
-Challenge cho mình file chall.txt 
+Challenge cho mình file [chal.txt](https://github.com/kietbl/Write-up/blob/main/GDUCTF%202022/chal.txt) 
     
 Nội dung như sau:
     
