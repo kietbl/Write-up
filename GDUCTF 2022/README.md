@@ -289,6 +289,6 @@ Bấm vào biểu tượng cái gậy phép tới khi nào ra output là flag th
  </details>
     </details>
 
-    
+Okay, nếu các bạn có bất kỳ thắc mắc gì có thể Direct Message saraka#4758 trên Discord.
 
 
