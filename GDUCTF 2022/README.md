@@ -1,9 +1,10 @@
 Dưới đây là 1 số challenge mình đã giải được ở giải này, và vì server thi chỉ tồn tại đến hết giải nên mình không có hình ảnh cụ thể về 
 challenge description mà chỉ có text.
 Ok, bắt đầu nào:
-
-### FORENSIC: ###
-## Sky ##
+<details>
+     <summary><h3> FORENSIC: </h3></summary>
+        <details>
+             <summary><h3> Sky </h3></summary>
 
 **Description: where is my sky???**
 
@@ -20,8 +21,9 @@ Thế là mình dùng Sonic Visualiser để mở:
 Và mình nhận được flag:
 
 >Flag: GDUCTF{cl0ud5_b1rd_cl0ud5_pl4n3_cl0ud5}
-
-## Conversation ##
+    </details>
+        <details>
+            <summary><h3> Conversation </h3></summary>
 
 **Description: they are talking about something, can you find their secret?**
 
@@ -90,8 +92,9 @@ Mở lên và có flag
 ![image](https://user-images.githubusercontent.com/94149390/185824173-79cc9275-9413-4c81-be0f-8e0c69238b3f.png)
 
 >Flag: GDUCTF{hmmm_0nly_TCP_15_n0t_53cur3}
-
-## Message from the universe ##
+    </details>
+        <details>
+            <summary><h3> Message from the universe </h3></summary>
 
 **Description: The stars are just small dots in the long long night**
 
@@ -152,8 +155,9 @@ Ném vào tool decode và mình nhận được:
 
 ``` 5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355 ```
 >Flag: GDUCTF{5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355}
-
-## Before The Dead ##
+    </details>
+        <details>
+            <summary><h3> Before The Dead </h3></summary>
 
 **Description: I find playing guessing game is interesting so I took one on google. After finishing the first round, my computer suddenly show errors get crashed. Luckily, I was able to dump memory before the crash happen. Could you analyze what was happening in my computer at that time?
 Ah and I know the attacker ip address but don't know what port is opening, maybe you can try with the bind port he used when he attacked my computer.
@@ -175,9 +179,56 @@ mình dùng volatility2 với plugin connections
 
 Chỉ có 1 connection và 1 port, vậy suy ra port của kẻ tấn công là 30002
 
+Tới đây thì mình không biết phải làm gì tiếp nên thử hết mấy cái plugin như windows.pstree, hivelist
 
-### OSINT ###
-## Forgotten photo ##
+1 hồi sau thì challenge description thay đổi thành gì đấy mình không nhớ rõ nhưng đại khái là bảo người chơi chơi game. Kèm với 1 cái hint to bự rất hữu ích: 
+"Volatility". Vâng, cảm ơn hint rất hữu ích của ông, tác giả bài này.
+
+Thế là mình dùng pstree xem những ứng dụng nào chạy vào lúc ấy 
+
+Xem nào, guessing_game.e... mình nghĩ đây là file game.
+
+![image](https://user-images.githubusercontent.com/94149390/185890125-a35e53cb-472b-4982-b568-32d8f50f8b7b.png)
+
+Thế là mình thử dumpfile PID này ra thử xem có gì không
+
+![image](https://user-images.githubusercontent.com/94149390/185890686-7b8bd938-2540-4f69-b291-1fdcd8fe7274.png)
+
+Mình nhận được mấy files này đây (lưu ý, tắt win defender hoặc ném vào linux, ở đây mình ném vào linux để xem file DAT chứa gì)
+
+![image](https://user-images.githubusercontent.com/94149390/185890906-9d54b3fe-ce07-41c3-80ea-152a8412b386.png)
+
+Mình dùng lệnh file để phân tích file DAT này và nhận thấy rằng nó là file execute
+
+![image](https://user-images.githubusercontent.com/94149390/185891492-79626a01-2f92-4af4-9852-4a6e274274d6.png)
+
+Mình quay lại máy chính, đổi extension của file và mở lên 
+
+![image](https://user-images.githubusercontent.com/94149390/185892144-ff5f07e6-ffc5-4d02-aae4-9c0d08acc7be.png)
+
+![image](https://user-images.githubusercontent.com/94149390/185892205-e2f47487-64a6-4c4f-a882-04527c236ad2.png)
+
+Sau khi hoàn thành cái game này thì mình nhận được password là 
+``` 23ssqn_9qtHuSqLUbTTWSNC8P9rw_sLX ```
+
+Ok, còn username thôi, mình lại quay lại máy ảo, dùng lệnh strings để xem có gì không
+
+Mình grep hết tất cả những cái liên quan tới guessing thì nhận được tên riêng có vẻ giống username 
+
+![image](https://user-images.githubusercontent.com/94149390/185892609-ac573397-56b3-4a7f-a72b-c0959b93306e.png)
+
+Nhập username và password thì nhận được file flag.txt, cat nó và mình nhận được flag:
+
+![image](https://user-images.githubusercontent.com/94149390/185892820-1c14028f-0b49-49f1-8ce6-5d613875ef0f.png)
+
+>flag: GDUCTF{y0U_sh0uLD_b4Ck_Up_d4T4_r3Gul4RlY_30b7984ff561521b99f6b3887c212386}
+     </details>
+         </details>
+         
+<details>
+    <summary><h3> OSINT: </h3></summary>
+        <details>
+            <summary><h3> Forgotten photo </h3> </summary>
 
 **Description:
 Elios Roger is the photographer I hired to prepare the photos for the Moon exhibit. He said he would send me the photo, but the exhibition day is coming and I can't contact him.
@@ -207,8 +258,37 @@ Tải về, ném vào Fotoforensics, vào meta data và nhận được flag:
 ![image](https://user-images.githubusercontent.com/94149390/185830171-93349087-9d11-4ef5-8694-d3e60fb80238.png)
 
 >Flag: GDUCTF{r3d_m00n_f0r_th3_3xh1b1t10n}
+    </details>  
+</details>
 
+<details>
+    <summary><h3> Crypto </h3></summary>
+        <details>
+            <summary><h3> MasterChef </h3></summary>
+            
+**Description: longkd719 is a MasterChef. He can bake the flag. :D???**
+    
+Challenge cho mình file chall.txt 
+    
+Nội dung như sau:
+    
+```
+R1pSU0FOVEdFQTNHS0lCV0c0UURNWVJBR1kyQ0FNWlhFQVpUQ0lCVEhFUURFTUJBR1pRU0FOWlZFQTNUR0lCWEdRUURFTUJBR1laU0FOVEdFQTNHTUlCV01JUURNTkpBR1kyQ0FNUlFFQTNEQ0lCU0dBUURNWkpBR1kyU0FOWlhFQVpEQUlCV0dNUURNTUpBR1pSQ0FOUlZFQVpXQ0lCU0dBUURJTlpBR1EyQ0FOSlZFQTJER0lCVkdRUURJTlJBRzVSQ0FOQlVFQVpUR0lCV0dNUURHTUJBR1kyQ0FNWlJFQTNHS0lCV0c0UURLWlJBR1UzU0FNWlJFQTNUSUlCV0hBUURLWlJBR1FaU0FOWlpFQTNERUlCVEdNUURPTVJBR1FaU0FOUllFQVpUR0lCV0dZUURPWkE9
+```
+    
+Ok, đề bài nhắc đến từ "chef", vậy thì không cần suy nghĩ nữa, ném thẳng vào [CyberChef](https://gchq.github.io/CyberChef/) thôi.
+    
+Bấm vào biểu tượng cái gậy phép tới khi nào ra output là flag thì thôi
+    
+![image](https://user-images.githubusercontent.com/94149390/185902234-2409190a-3b4e-4c0f-aa09-e068788c8f82.png)
 
+![image](https://user-images.githubusercontent.com/94149390/185902323-27eb257e-2660-4ce1-974a-536e817b8d0b.png)
 
+>Flag: GDUCTF{D3c0d1ng_W1th_Cyb3rCh3f}
+    
+ </details>
+    </details>
+
+    
 
 
