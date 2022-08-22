@@ -89,4 +89,69 @@ Mở lên và có flag
 
 ![image](https://user-images.githubusercontent.com/94149390/185824173-79cc9275-9413-4c81-be0f-8e0c69238b3f.png)
 
->Flag:GDUCTF{hmmm_0nly_TCP_15_n0t_53cur3}
+>Flag: GDUCTF{hmmm_0nly_TCP_15_n0t_53cur3}
+
+## Message from the universe ##
+
+**Description: The stars are just small dots in the long long night**
+
+Challenge này cho mình file message.png
+
+Mở file lên và điều đầu tiên mình nghĩ là file này nhỏ quá.
+
+![image](https://user-images.githubusercontent.com/94149390/185824732-9b8c4946-cb25-4dd1-ae9f-6b3034d48950.png)
+
+Ban đầu mình nghĩ phóng to hình ảnh lên là ra flag nên dùng vài tool phóng to hình ảnh nhưng thất bại...
+
+Thế là mình quay lại đọc description, mình chú ý từ "dots" và mở file lên thì nhận thấy nó giống mã morse,
+thế là mình ngồi decode bằng tay và mắt :v, mắt muốn lòi ra nhưng kết quả decode submit mãi không đúng, quá cay!
+
+Một hồi sau có hint là dùng script để quét, thế là mình google mấy cái script quét màu trong ảnh rồi viết thêm ra script:
+
+```
+import numpy 
+from PIL import Image
+
+
+def get_image(image_path):
+    image = Image.open(image_path, "r")
+    width, height = image.size
+    pixel_values = list(image.getdata())
+    if image.mode == "RGB":
+        channels = 3
+    elif image.mode == "L":
+        channels = 1
+    else:
+        print("Unknown mode: %s" % image.mode)
+        return None
+    pixel_values = numpy.array(pixel_values).reshape((width, height, channels))
+    return pixel_values
+
+
+image = get_image("message.png")
+grey = image[5]
+black = image[14]
+white = image[0]
+words =""
+for i in range (0, 193):
+    if (image[i] == white).all():
+        words += "."
+    elif (image[i] == grey).all():
+        words += " "
+    elif (image[i] == black).all():
+        words += "-"
+print(words)
+```
+Quét và mình nhận được:
+
+```
+.....  -  ....-  .-.  .....  -....-  -.-.  ....-  -.  -  -....-  .....  ....  .----  -.  ...--  -....-  .--  .----  -  ....  -----  ..-  -  -....-  -..  ....-  .-.  -.-  -.  ...--  .....  .....
+```
+
+Ném vào tool decode và mình nhận được:
+
+``` 5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355 ```
+>Flag: GDUCTF{5T4R5-C4NT-5H1N3-W1TH0UT-D4RKN355}
+
+
+
