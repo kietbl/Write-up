@@ -51,6 +51,8 @@ Ok, stream tiếp theo là strings của file
 
 Nhìn đoạn đầu là biết  file này là file jpg
 
+https://en.wikipedia.org/wiki/List_of_file_signatures
+
 ![image](https://user-images.githubusercontent.com/94149390/185823501-2f0a0999-e6ec-45b9-9484-03ab7097193b.png)
 
 Show data as raw
