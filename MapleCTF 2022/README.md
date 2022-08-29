@@ -1,4 +1,4 @@
-Đây là một giải khác thú vị vì có giao diện là tựa game quen thuộc với tuổi thơ nhiều người (trừ mình :v) là Maple Story
+Đây là một giải khá thú vị vì có giao diện là tựa game quen thuộc với tuổi thơ nhiều người (trừ mình :v) là Maple Story
 Ở giải này mình giải được 1 bài và 2 bài có ý tưởng nhưng không làm được :(( 
 Thôi không dài dòng nữa, bắt đầu nào:
 
