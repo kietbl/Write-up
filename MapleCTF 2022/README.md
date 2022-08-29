@@ -63,7 +63,7 @@ Như challenge bên trên, thì challenge bored hacker yêu cầu ta tìm ra tê
 
 Thế là mình mở bức ảnh để xem lại và thấy mã barcode pdf417, đây là loại mã thường dùng trong vé máy bay, nó chứa thông tin trong vé
 
-![image](https://user-images.githubusercontent.com/94149390/187192751-52ac0949-3595-43da-ad82-33c9f637ba9f.png)
+![image](https://user-images.githubusercontent.com/94149390/187197413-3481348c-2e15-4c79-811d-7a5a08ec6603.png)
 
 Để ý thì thấy mã này bị che khá nhiều nên không dùng tool decode được mà phải giải mã bằng tay :((, do lười (với lúc đó đêm rồi để sáng đi học nữa) nên mình bỏ luôn :v. Lần sau sẽ quay lại làm.
 
