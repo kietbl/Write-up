@@ -1,3 +1,3 @@
 # Write-up
 
-Thực ra thì mình nghĩ mình nên viết blog nhưng mà lười quá nên viết trong này :')
+Đây là nơi mình lưu lại writeup về các giải cuối tuần cũng như các giải trong nước mà mình tham gia.
