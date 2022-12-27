@@ -83,6 +83,7 @@ Clicked https://tr4v3l1.netlify.app/flag.txt, then found the flag
 
 ``flag: nitectf{y0u_w3nt_b4ck_1n_t1m3}``
 
+## Forensics
 ### Wonka-Bar
 
 ![](https://i.imgur.com/t5gVIIb.png)
