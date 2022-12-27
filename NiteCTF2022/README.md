@@ -49,7 +49,7 @@ I found the link in Exiftool
 
 ![](https://i.imgur.com/zu7zIzm.png)
 
-Then I accessed the link, it lead me to google jamboard
+Then I accessed the link, it leads me to google jamboard
 
 ![](https://i.imgur.com/eEJwsJ6.png)
 
@@ -199,7 +199,7 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 923: invali
 
 I thought it's corrupted. So I sought Discord for any support or hints.
 And as I mentioned above, they replaced new file.
-So I downloaded new file and using the password I found to open it.
+So I downloaded new file and used the password I found to open it.
 
 Its content has a little change.
 The link is different and they emphasize "chance".
