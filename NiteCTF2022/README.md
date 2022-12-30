@@ -247,7 +247,7 @@ I try Keyboard Shift Cipher but it does not work, then I try ASCII Shift Cipher 
 
 ![](https://i.imgur.com/KoTp9sr.png)
 
-And this time, I realise what is x = 5 means, I just need to subtract 5 ASCII offsets from each character of the ciphertext to get the original string.
+And this time, I realise what is x = 5 means, I just need to subtract 5 ASCII values from each character of the ciphertext to get the original string.
 
 ![](https://i.imgur.com/LTXogRq.png)
 
