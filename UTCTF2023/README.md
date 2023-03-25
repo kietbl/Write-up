@@ -247,6 +247,7 @@ Note to self: Get better at this security stuff.
 ```
 ``Clear network`` :siuuuuuu:
 
+**Phần sau do @longkd719 viết**
 
 ## Misc ##
 
